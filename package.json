@@ -1,0 +1,23 @@
+{
+  "name": "namastedev",
+  "version": "1.0.0",
+  "description": "this is theory of react",
+  "homepage": "https://github.com/naveenpraneshgururajan/NamasteReact#readme",
+  "bugs": {
+    "url": "https://github.com/naveenpraneshgururajan/NamasteReact/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/naveenpraneshgururajan/NamasteReact.git"
+  },
+  "license": "ISC",
+  "author": "Naveen Pranesh",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
