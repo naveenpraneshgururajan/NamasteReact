@@ -1,3 +1,6 @@
+import React from "react";
+import { createRoot } from "react-dom/client";
+
 // const heading = React.createElement(
 //   "h1",
 //   { id: "heading" }, //<---- Attributes , like id and things
@@ -48,7 +51,11 @@
  *
  */
 
-const heading1 = React.createElement("h1", { id: "heading1" }, "Heading1");
+const heading1 = React.createElement(
+  "h1",
+  { id: "heading1" },
+  "This is heading 1",
+);
 const heading2 = React.createElement(
   "h2",
   { id: "heading2" },
@@ -87,5 +94,5 @@ const parent = React.createElement("div", { id: "parent" }, [child1, child2]);
 //   ]),
 // ]);
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = createRoot(document.getElementById("root"));
 root.render(parent);
